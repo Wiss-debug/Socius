@@ -1,1 +1,13 @@
 ----
+- name: Reporte Cartolas
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  vars:
+    Edad: ''
+    nombre: ''
+
+  tasks:
+    - name: Imprimir la salida
+      debug:
+        msg: "nombre es: {{ nombre }} y tengo {{ Edad }}"
