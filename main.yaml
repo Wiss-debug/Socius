@@ -10,4 +10,4 @@
   tasks:
     - name: Imprimir la salida
       debug:
-        msg: "nombre es: {{ nombre }} y tengo {{ Edad }}"
+        msg: "Mi nombre es: {{ nombre }} y tengo la siguiente Edad: {{ Edad }}"
